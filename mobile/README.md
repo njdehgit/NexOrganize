@@ -1,6 +1,6 @@
 # NexOrganize Mobile App
 
-This is the React Native mobile app for NexOrganize.
+This is the Expo React Native mobile app for NexOrganize built with TypeScript.
 
 ## Setup
 
@@ -8,11 +8,25 @@ This is the React Native mobile app for NexOrganize.
    ```bash
    npm install
    ```
-2. Run on iOS:
+
+2. Start the development server:
    ```bash
-   npx react-native run-ios
+   npm start
    ```
-3. Run on Android:
+
+3. Run on iOS:
    ```bash
-   npx react-native run-android
+   npm run ios
    ```
+
+4. Run on Android:
+   ```bash
+   npm run android
+   ```
+
+5. Run on web:
+   ```bash
+   npm run web
+   ```
+
+Make sure you have the Expo CLI installed globally: `npm install -g @expo/cli`

@@ -1,6 +1,6 @@
 # NexOrganize API
 
-This is the Node.js/Express (or Next.js API routes) backend for NexOrganize.
+This is the Express.js backend API for NexOrganize built with TypeScript.
 
 ## Setup
 
@@ -8,7 +8,28 @@ This is the Node.js/Express (or Next.js API routes) backend for NexOrganize.
    ```bash
    npm install
    ```
-2. Start the server:
+
+2. Start the development server:
    ```bash
    npm run dev
    ```
+
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+
+4. Start production server:
+   ```bash
+   npm start
+   ```
+
+The API will be available at http://localhost:3001
+
+## Endpoints
+
+- `GET /` - API information
+- `GET /health` - Health check
+- `GET /api/clients` - Clients endpoint (placeholder)
+- `GET /api/projects` - Projects endpoint (placeholder)
+- `GET /api/invoices` - Invoices endpoint (placeholder)
